@@ -1,0 +1,43 @@
+.max-custom-img {
+  width: 100%;
+  height: auto;
+}
+
+.index-custom-img {
+  width: 45%;
+  height: auto;
+  float: left;
+  border-radius: 50%;
+  margin: 20px
+}
+
+.custom-header {
+  color: rgb(246, 247, 248) !important;
+  font-weight: bold;
+  text-align: center;
+}
+
+.brand-custom-header{background-color: rgb(48, 185, 162) !important;
+}
+
+.description-header {
+  color: rgb(48, 185, 162);
+}
+
+.comparison-title {
+  color: rgb(48, 185, 162);
+  text-align: center;
+}
+
+.margin {
+  margin: 35px;
+  padding: 35px;
+}
+
+.visualize-hover:hover {
+  border: 5px solid rgb(48, 185, 162);
+}
+
+.title-background {
+  background-color: white;
+}

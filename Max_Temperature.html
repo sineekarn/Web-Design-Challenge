@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>City Latitude vs. Max Temperature</title>
+
+  <!-- Bring in our bootstrap stylesheet -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+  <!-- navbar -->
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="navbar-header brand-custom-header">
+        <a class="navbar-brand custom-header" href="index.html">Lattitude</a>
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Plots
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="Max_Temperature.html">Max Temperature</a>
+              <a class="dropdown-item" href="Humidity.html">Humidity</a>
+              <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
+              <a class="dropdown-item" href="Wind_Speed.html">Wind Speed</a>
+            </div>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="Data.html">Data</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Comparison.html">Comparison</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+
+  <!-- container of visualization -->
+  <div class="container title-background">
+    <div class="row">
+      <div class="col-md-8">
+        <h1 class="description-header">Max Temperature</h1>
+        <hr class="description-hr" />
+        <img class="max-custom-img" src="Resources/images/Fig1.png" alt="Temerature" />
+        <p>The weather becomes significantly warmer as one approaches the equator (0 degree latitude). 
+          It is interesting to see that some of the cities that are further away from the equator have 
+          higher temperature compared to the cities that are closer to the equator. 
+          <br><br>Additionally, the overall temperature in southern hemisphere tend to be much warmer than the northern hemisphere 
+          at the time of the year this data was gather 
+        </p>
+      </div>
+
+      <div class="col-md-4">
+        <h1 class="description-header">Visualization</h1>
+        <hr class="description-hr" />
+        <div class="row">
+          <div class="col-md-6 col-sm-3">
+            <a href="Resources/images/Fig1.png"><img class="max-custom-img visualize-hover"
+                src="Resources/images/Fig1.png" alt="Temerature" /></a>
+          </div>
+          <div class="col-md-6 col-sm-3">
+            <a href="Resources/images/Fig2.png"><img class="max-custom-img visualize-hover" 
+              src="Resources/images/Fig2.png" alt="Temerature" /></a>
+          </div>
+          <div class="col-md-6 col-sm-3">
+            <a href="Resources/images/Fig3.png"><img class="max-custom-img visualize-hover" 
+              src="Resources/images/Fig3.png" alt="Temerature" /></a>
+          </div>
+          <div class="col-md-6 col-sm-3">
+            <a href="Resources/images/Fig4.png"><img class="max-custom-img visualize-hover" 
+              src="Resources/images/Fig4.png" alt="Temerature" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
