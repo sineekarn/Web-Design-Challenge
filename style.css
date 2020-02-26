@@ -4,7 +4,7 @@
 }
 
 .index-custom-img {
-  width: 45%;
+  width: 48%;
   height: auto;
   float: left;
   border-radius: 50%;
@@ -35,7 +35,7 @@
 }
 
 .visualize-hover:hover {
-  border: 5px solid rgb(48, 185, 162);
+  border: 4px solid rgb(48, 185, 162);
 }
 
 .title-background {
